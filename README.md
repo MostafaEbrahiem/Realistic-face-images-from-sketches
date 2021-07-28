@@ -1,3 +1,7 @@
+This project aims to make an application that
+takes a sketch image as an input and generates
+a realistic face image as an output.
+
 Instruction Manual
 1.	Matlab Code(convert image to sketch)
 •	Copy the location of the folder the contain the images needed to e convert in the variable called "location" in file (convert2Sketch.m).
