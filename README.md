@@ -1,2 +1,54 @@
-# Realistic-face-images-from-sketches
-A recent study has shown that around 75% of criminal investigations go unsolved. Only 1 out of 3 criminals gets arrested in America. According to recent statistics from Red Cross in 2018, the number of people who went missing worldwide are around 100,000. With so many people missing and so many cases going unsolved for not being able to fully identify the person’s face and facial characteristics. The Science of Deep learning offers a variety of solutions. Deep learning is a branch of machine learning which is completely based on artificial neural networks, as neural network is going to mimic the human brain so deep learning is also a kind of mimic of human brain. It works on datasets with huge amounts of data. Given a large dataset of input and output pairs, a deep learning algorithm will try to minimize the difference between its prediction and expected output. By doing this, it tries to learn the association/pattern between given inputs and outputs, this in turn allows a deep learning model to generalize to inputs that it hasn’t seen before. So, how do deep learning Algorithms learn? Deep Learn- 4 ing Algorithms use something called a neural network to find associations between a set of inputs and outputs. The “deep” part of deep learning refers to creating deep neural networks. This refers to a neural network with a large quantity of layers, with the addition of more weights and biases, the neural network improves its ability to approximate more complex functions. Which in return generates a more accurate output.  So , This project aims to make an application that takes a sketch image as an input and generates a realistic face image as an output. Also Creating realistic human face images from sketches can be used for various applications including criminal investigation, character design, educational training, etc.
+Instruction Manual
+1.	Matlab Code(convert image to sketch)
+•	Copy the location of the folder the contain the images needed to e convert in the variable called "location" in file (convert2Sketch.m).
+•	Copy the location of the destination folder in the variable called "folder" file (convert2Sketch.m).
+•	Run (convert2Sketch.m).
+
+2.	Sketch Simplification Code(need at least 12 GB ram to run this)
+•	Put the sketches needed to simplify into the "figs" folder.
+•	If you need to resize the sketches run the "resize.py" file (the sketch size must be between 512*512 : 1024*1024).
+•	Run "simplify.py" file and the result will show in the project directory.  
+
+	needed libraries  
+(CV2,os,PIL,tqdm,torch,torchvision,gc,argparse).
+
+3.	Main Code(Colab Version)
+    1)To Train
+•	First you must upload your project in Google Drive and mount your drive in Colab.
+•	Put all your sketches in (GP_project\Realistic_Face\datasets\w\train_A) folder and it's original images in (GP_project\Realistic_Face\datasets\w\train_B) folder.
+•	Open the Colab note book,mount your drive,Install all dependency and libraries , change your directory to your project location in Google Drive , let the project sees your training directory.
+•	Run the train.py script and change the parameters to match your needs.
+2)To Test
+•	put your test sketches in (GP_project\Realistic_Face\datasets\w\test_A) folder.
+•	Run test.py script, select the number of sketches need to be test and the Results will be in (GP_project\Realistic_Face\results\w\test_40\images) folder. 
+
+
+4.	Main Code(Local Version)(Need decent NVIDIA card to run and at least 12 GB ram)
+
+1)To Train
+•	Same steps as the Colab version but you don't need to upload anything.
+
+2)To Test
+•	Same steps as the Colab version.
+
+3)To Edit
+•	Upload the sketch 
+•	Convert it 
+•	start Editing the hair, mouth, skin, eyebrows and eyes by changing the values of the (Red, Green, Blue) Bars.
+
+	needed libraries 
+(CV2,numpy,argparse,os,torch,sys,functools, random,ntpath,time,fractions).
+
+
+
+•	Train Line
+(!python train.py --label_nc 0 --no_instance --name w --dataroot /content/drive/My\ Drive/pix2pixHD-colab/pix2pixHD/datasets/w --continue_train --display_freq 100 --checkpoints_dir /content/drive/My\ Drive/pix2pixHD-colab/pix2pixHD/checkpoints --which_epoch latest --save_epoch_freq 10 ) .
+
+
+•	Test Line 
+(!python test.py --dataroot /content/drive/My\ Drive/pix2pixHD-colab/pix2pixHD/datasets/w --name w --netG global --resize_or_crop none --label_nc 0 --no_instance --how_many 13 --checkpoints_dir ./trained --which_epoch 30 ) .
+
+	Model is placed in (GP_project\Realistic_Face\trained\gp_male_femal) folder.
+
+
+
