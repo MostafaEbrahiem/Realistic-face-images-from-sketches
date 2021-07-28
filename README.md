@@ -1,5 +1,6 @@
 ![gui2](https://user-images.githubusercontent.com/88105870/127376340-148496a8-69a0-4a54-a750-21e2fae5f42a.jpg)
 ![gui3](https://user-images.githubusercontent.com/88105870/127376335-82f79867-f153-43af-9e39-69f9de158b56.jpg)
+![gui4](https://user-images.githubusercontent.com/88105870/127376384-6e61950f-c266-4357-8cb6-bf342a106e9c.jpg)
 
 This project aims to make an application that
 takes a sketch image as an input and generates
