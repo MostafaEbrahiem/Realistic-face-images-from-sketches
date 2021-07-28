@@ -1,3 +1,4 @@
+![gui2](https://user-images.githubusercontent.com/88105870/127376192-0ae069b9-0e23-4117-9ccc-42cb0748da89.jpg)
 This project aims to make an application that
 takes a sketch image as an input and generates
 a realistic face image as an output.
