@@ -59,9 +59,8 @@ Instruction Manual
 	Model is placed in (GP_project\Realistic_Face\trained\gp_male_femal) folder.
 
 
-
-![test_f3](https://user-images.githubusercontent.com/88105870/140059082-8b40c300-2407-4a53-9a7a-572e61d04362.png)
 ![S](https://user-images.githubusercontent.com/88105870/140059139-e0d9ff08-443e-401d-8bd9-e1db6dd7b9f4.jpg)
+![test_f3](https://user-images.githubusercontent.com/88105870/140059082-8b40c300-2407-4a53-9a7a-572e61d04362.png)
 ![test_f2](https://user-images.githubusercontent.com/88105870/140059143-0a2dca84-a28b-43ee-9df3-ff6dddfddbaa.png)
 
 
