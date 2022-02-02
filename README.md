@@ -64,5 +64,17 @@ Instruction Manual
 ![test_f2](https://user-images.githubusercontent.com/88105870/140059143-0a2dca84-a28b-43ee-9df3-ff6dddfddbaa.png)
 
 
+Here is an updated results of the project
+
+The sketch
+![test3_sketch](https://user-images.githubusercontent.com/88105870/152252497-323a1b8b-7ba2-4846-9db1-cd7299f3481a.jpg)
+The result
+![download (9)](https://user-images.githubusercontent.com/88105870/152252504-75ad5b80-a5e0-432f-81fb-98728419c65c.png)
+The real one 
+![ddd](https://user-images.githubusercontent.com/88105870/152252576-0b3abb7a-7642-4421-a6f1-f9893a0b236f.jpg)
+
+simple presentation 
+
+![inCollage_20210720_015728560](https://user-images.githubusercontent.com/88105870/152252645-2229ee46-f1f7-4029-81f6-65047ee8bbaf.jpg)
 
 
